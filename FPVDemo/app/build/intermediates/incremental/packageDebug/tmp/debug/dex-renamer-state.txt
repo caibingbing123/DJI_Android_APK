@@ -1,0 +1,4 @@
+#Fri Apr 29 16:52:38 CST 2022
+base.0=F\:\\android develop\\android studio\\my-project-location\\DJI_mobile_client\\FPVDemo\\app\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

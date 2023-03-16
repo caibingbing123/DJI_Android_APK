@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.dji:fly-safe-database:1.0.19@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bb121634469298716bfac0d74602e49b/transformed/jetified-fly-safe-database-1.0.19/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bb121634469298716bfac0d74602e49b/transformed/jetified-fly-safe-database-1.0.19/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bb121634469298716bfac0d74602e49b/transformed/jetified-fly-safe-database-1.0.19/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../android_install_packages/.Gradle/caches/transforms-3/b8672a0a48c5acb7232beafb11a0be91/transformed/jetified-fly-safe-database-1.0.19/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../android_install_packages/.Gradle/caches/transforms-3/b8672a0a48c5acb7232beafb11a0be91/transformed/jetified-fly-safe-database-1.0.19/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../android_install_packages/.Gradle/caches/transforms-3/b8672a0a48c5acb7232beafb11a0be91/transformed/jetified-fly-safe-database-1.0.19/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

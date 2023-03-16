@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Ir a inicio"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Suprimir"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de búsqueda"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ocultar"</string>
+    <string name="flight_forbid_warn_alert_txt">GEO: Estás en una Zona de Advertencia (%s). Vuela con precaución.</string>
+    <string name="flight_forbid_warn_edge_alert_txt">GEO: Te estás aproximando a una Zona de Advertencia (%s). Vuela con precaución.</string>
+    <string name="flight_frb_new_around_frb">Tu aeronave está aproximándose a una zona restringida. \nTipo de zona restringida: %s. \nEs posible que se produzca una cancelación del RTH, de los Modos de Vuelo Inteligente o que la aeronave pase a vuelo estacionario. Vuela con precaución.</string>
+    <string name="flight_frb_new_around_limit">Te estás acercano a una zona GEO. \nTu aeronave puede experimentar interrupción de RTH, vuelo estacionario o cancelación del Modo de vuelo inteligente. Vuela con precaución.</string>
+    <string name="flight_frb_new_around_limit_height">Te estás aproximando a una zona de altitud restringida: (%1$d m).\nTipo de zona de altitud restringida: %2$s.\nTu aeronave puede interrumpir el RTH, el vuelo estacionario o el Modo de Vuelo Inteligente. Vuela con cuidado.</string>
+    <string name="flight_frb_new_around_to_open_license">%1$d zona(s) de autorización cercana(s). Tienes permiso para acceder. \nTipo de zona(s) de autorización: %2$s. \nPara continuar tu vuelo, selecciona:</string>
+    <string name="flight_frb_new_around_to_unlock">Hay %1$d Zona(s) de Autorización cerca.\nTipo de zona(s) de autorización: %2$s. \nEs posible que se produzca una cancelación del RTH, de los Modos de Vuelo Inteligente o que la aeronave pase a vuelo estacionario. Vuela con precaución. \n ¿Deseas solicitar el autodesbloqueo para acceder a estas zonas?</string>
+    <string name="flight_frb_new_below_limit_height">Tu aeronave está volando en una zona de altitud restringida (%d m). Vuela con precaución.</string>
+    <string name="flight_frb_new_enhance_warning">Your aircraft has entered an Enhanced Warning Zone (%s). Please fly with caution. \nTo continue your flight, please select:</string>
+    <string name="flight_frb_new_in_auth_no_license">No se puede despegar. Tu aeronave ha entrado en una zona de autorización y tu señal GPS es demasiado débil. \nTipo de zona de autorización: %s. \n¿Deseas solicitar el autodesbloqueo para acceder a esta zona?</string>
+    <string name="flight_frb_new_in_auth_with_license">Tu aeronave ha entrado en una zona de autorización para la que tienes permiso. \nTipo de zona de autorización: %s \nPara continuar tu vuelo, selecciona:</string>
+    <string name="flight_frb_new_limit_height_lose_gps">Se ha perdido la señal GPS. La altitud se ha restringido a %d m.</string>
+    <string name="flight_frb_new_seem_in_auth_no_license">No se puede despegar. Tu aeronave ha entrado en una zona de autorización y tu señal GPS es demasiado débil. \n Tipo de zona de autorización: %s. \n¿Deseas solicitar el autodesbloqueo para acceder a esta zona?</string>
+    <string name="flight_frb_new_touch_to_open_license">Tu aeronave está en el límite de una zona de autorización para la que tienes permiso. \nTipo de zona de autorización: %s. \nPara continuar tu vuelo, selecciona:</string>
+    <string name="flyfrb_map_click_pop_end_at">Tiempo de finalización:</string>
+    <string name="flyfrb_map_click_pop_in_auth_zone">El área objetivo está en una zona de autorización. Puedes desbloquear las restricciones de vuelo.</string>
+    <string name="flyfrb_map_click_pop_in_enhance_warning_zone">El área objetivo es una zona de advertencia reforzada. Vuela con precaución.</string>
+    <string name="flyfrb_map_click_pop_in_height_zone">El área objetivo está en una zona de altitud restringida. La altitud no puede superar los %s m.</string>
+    <string name="flyfrb_map_click_pop_in_limit_zone">El área objetivo está en una zona restringida. No está permitido despegar.</string>
+    <string name="flyfrb_map_click_pop_in_warning_zone">El área objetivo es una zona de advertencia. Vuela con precaución.</string>
+    <string name="flyfrb_map_click_pop_start_at">Hora de inicio:</string>
+    <string name="flyfrb_map_click_pop_title">Info Zonas GEO</string>
+    <string name="geo_zones">Zonas GEO</string>
+    <string name="limit_tips_touch">Tu aeronave está en el límite de una zona restringida. Aléjate de ella con cuidado.</string>
+    <string name="limit_tips_touch_auth">Tu aeronave está en el límite de una zona de autorización. Vuela con precaución.</string>
+    <string name="limit_tips_touch_limit_height">Tu aeronave está en el límite de una zona de altitud restringida. Aléjate con cuidado.</string>
+    <string name="nfz_fly_zone_airport">Aeropuerto</string>
+    <string name="nfz_fly_zone_airports_commercial">Aeropuertos comerciales</string>
+    <string name="nfz_fly_zone_airports_commercial_private">Aeropuertos comerciales privados</string>
+    <string name="nfz_fly_zone_airports_recreational">Aeropuertos de ocio</string>
+    <string name="nfz_fly_zone_airports_recreational_private">Aeropuertos de ocio privados</string>
+    <string name="nfz_fly_zone_class_b">Espacio aéreo clase B</string>
+    <string name="nfz_fly_zone_class_c">Espacio aéreo clase C</string>
+    <string name="nfz_fly_zone_class_d">Espacio aéreo clase D</string>
+    <string name="nfz_fly_zone_class_e0">Espacio aéreo clase E</string>
+    <string name="nfz_fly_zone_heliports">Helipuertos</string>
+    <string name="nfz_fly_zone_military">Zonas militares</string>
+    <string name="nfz_fly_zone_national_parks">Parques nacionales</string>
+    <string name="nfz_fly_zone_noaa">Áreas NOAA</string>
+    <string name="nfz_fly_zone_nuclear_power_plant">Centrales nucleares</string>
+    <string name="nfz_fly_zone_parcels">Parcelas</string>
+    <string name="nfz_fly_zone_power_plants">Centrales energéticas</string>
+    <string name="nfz_fly_zone_prisons">Prisiones</string>
+    <string name="nfz_fly_zone_schools">Escuelas</string>
+    <string name="nfz_fly_zone_stadiums">Estadios</string>
+    <string name="nfz_fly_zone_sua_prhobited">Espacio aéreo prohibido</string>
+    <string name="nfz_fly_zone_sua_restricted">Espacio aéreo restringido</string>
+    <string name="nfz_fly_zone_tfrs">Restricción al vuelo temporal</string>
+    <string name="nfz_fly_zone_unpaved_airports">Aeropuertos no asfaltados</string>
+    <string name="nfz_fly_zone_warning">Zonas especiales</string>
+    <string name="nfz_http_request_area_cannot_unlock_error_prompt">No se puede desbloquear esta zona. \n (Código de error: %d)</string>
+    <string name="nfz_http_request_error_common_prompt">Contacto con la Asistencia Técnica de DJI si se produce un error en la solicitud. \n (Código de error: %d)</string>
+    <string name="nfz_http_request_token_error_prompt">Identificación no válida, vuelve a acceder a tu cuenta. \n (Código de error: %d)</string>
+    <string name="nfz_http_request_too_more_license_error_prompt">Se ha alcanzado el número máximo de certificados de desbloqueo. \n (Código de error: %d)</string>
+    <string name="nfz_http_request_too_more_unlock_error_prompt">Se ha alcanzado el número máximo de zonas de desbloqueo. \n (Código de rror: %d)</string>
+    <string name="nfz_http_request_verify_error_prompt">Identidad no verificada. \n (Código de error: %d)</string>
+    <string name="nfz_server_error_account_format">Datos introducidos incorrectos</string>
+    <string name="nfz_server_error_format">Datos introducidos incorrectos</string>
+    <string name="nfz_server_error_not_allow_unlimit">No se puede desbloquear en este área.</string>
+    <string name="nfz_server_error_not_login">Información de acceso errónea. Por favor comprueba tu conexión a la red o prueba de nuevo.</string>
+    <string name="nfz_server_error_parameter">Datos introducidos incorrectos</string>
+    <string name="nfz_server_error_signature">Firma incorrecta</string>
+    <string name="nfz_server_error_sn_empty">Número de serie incorrecto</string>
+    <string name="nfz_server_error_system_busy">Sistema conectado</string>
+    <string name="nfz_server_error_too_frequent">Prueba de nuevo tras 10 segundos</string>
+    <string name="nfz_server_error_too_more_unlimit">Se ha alcanzado el límite de desbloqueos avanzados. Elimina zonas para desbloquear más.</string>
+    <string name="nfz_server_error_user_not_verify">Usuario no verificado.</string>
+    <string name="nfz_unlimit_fail_toast_txt">No se pudo desbloquear. Código de error:</string>
+    <string name="nfz_unlock_desc_radius">Radio</string>
+    <string name="nfz_unlock_new_unlock_type_country">Desbloquear país</string>
+    <string name="nfz_unlock_new_unlock_type_geo">Desbloquear zona de autorización</string>
+    <string name="nfz_unlock_new_unlock_type_height">Desbloquear límite de altitud</string>
+    <string name="nfz_unlock_new_unlock_type_polygon">Desbloqueo especial (polígono)</string>
+    <string name="nfz_unlock_new_unlock_type_whitelist">Desbloqueo especial (círculo)</string>
+    <string name="nfz_unlock_special_polygon_desc">Dentro del rango del polígono</string>
+    <string name="nfz_unlock_v3_app_license_too_old">La versión actual del Certificado de Desbloqueo no alcanza el requisito del firmware. Asegúrate de que tu dispositivo móvil tenga conexión a la red.</string>
+    <string name="nfz_unlock_v3_app_license_too_old_dynamic">Error de versión del Certificado de Desbloqueo.</string>
+    <string name="nfz_unlock_v3_error_code">Código de error:</string>
+    <string name="nfz_unlock_v3_error_keyversion_not_got">Error de comunicación de la aeronave, no se puede desbloquear la zona.</string>
+    <string name="nfz_unlock_v3_error_keyversion_not_got_importing">Error de comunicación de la aeronave, no se puede importar el certificado de desbloqueo.</string>
+    <string name="nfz_unlock_v3_license_open_fail_user_not_match">No se pudo verificar la identidad del usuario.</string>
+    <string name="nfz_unlock_v3_uav_license_too_old">La versión actual del firmware no es compatible con el certificado de desbloqueo. Por favor actualiza el firmware en la página de actualización del firmware.</string>
+    <string name="nfz_unlock_view_map">Consultar mapa</string>
+    <string name="scan_qr_bar_tip">Sitúa el código QR dentro del recuadro para escanearlo.</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Buscar"</string>
+    <string name="setting_ui_flyfrb_unlock_refresh_empty">No hay ningún área desbloqueada</string>
+    <string name="setting_ui_flyfrb_unlock_refresh_fail">No se pudo actualizar</string>
+    <string name="setting_ui_flyfrb_unlock_refresh_success">Lista de certificados de desbloqueo actualizada</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="v2_nfz_unlock_geo_type">GEO</string>
+    <string name="v2_nfz_unlock_white_list_type">Lista blanca</string>
+</resources>

@@ -1,0 +1,288 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dji.FPVDemo" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="23"
+6-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml
+8
+9    <!-- DJI SDK need permission -->
+10    <uses-permission android:name="android.permission.BLUETOOTH" />
+10-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:7:5-68
+10-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:7:22-65
+11    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+11-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:8:5-74
+11-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:8:22-71
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:9:5-66
+12-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:9:22-63
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:10:5-67
+13-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:10:22-64
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:11:5-76
+14-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:11:22-73
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:12:5-68
+15-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:12:22-65
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:13:5-81
+16-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:13:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:14:5-79
+17-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:14:22-76
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:15:5-79
+18-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:15:22-76
+19    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+19-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:16:5-76
+19-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:16:22-73
+20    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+20-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:17:5-18:47
+20-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:17:22-81
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:19:5-81
+21-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:19:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:20:5-80
+22-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:20:22-77
+23    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+23-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:21:5-78
+23-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:21:22-75
+24    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+24-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:22:5-75
+24-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:22:22-72
+25
+26    <uses-feature android:name="android.hardware.camera" />
+26-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:24:5-60
+26-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:24:19-57
+27    <uses-feature android:name="android.hardware.camera.autofocus" />
+27-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:25:5-70
+27-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:25:19-67
+28    <uses-feature
+28-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:26:5-28:36
+29        android:name="android.hardware.usb.host"
+29-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:27:9-49
+30        android:required="false" />
+30-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:28:9-33
+31    <uses-feature
+31-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:29:5-31:35
+32        android:name="android.hardware.usb.accessory"
+32-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:30:9-54
+33        android:required="true" />
+33-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:31:9-32
+34
+35    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+35-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:14:5-98
+35-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:14:22-95
+36    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+36-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:16:5-80
+36-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:16:22-77
+37    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+37-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:19:5-79
+37-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:19:22-76
+38    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+38-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:22:5-79
+38-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:22:22-76
+39    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+39-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:24:5-71
+39-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:24:22-68
+40    <uses-permission android:name="android.permission.CAMERA" /> <!-- video editor -->
+40-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:25:5-65
+40-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:25:22-62
+41    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+41-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:29:5-81
+41-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:29:22-78
+42    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+42-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:30:5-75
+42-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:30:22-72
+43    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+43-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:31:5-73
+43-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:31:22-70
+44    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+44-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:32:5-79
+44-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:32:22-76
+45    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+45-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:33:5-84
+45-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:33:22-81
+46    <uses-permission android:name="android.permission.READ_LOGS" /> <!-- share permission start -->
+46-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:34:5-68
+46-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:34:22-65
+47    <uses-permission android:name="android.permission.GET_TASKS" />
+47-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:38:5-68
+47-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:38:22-65
+48    <uses-permission android:name="android.permission.RAISED_THREAD_PRIORITY" />
+48-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:41:5-81
+48-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:41:22-78
+49    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" /> <!-- share permission end -->
+49-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:42:5-85
+49-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:42:22-82
+50    <!-- livestreaming permission start -->
+51    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+51-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:48:5-74
+51-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:48:22-71
+52
+53    <uses-feature
+53-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:9:5-11:36
+54        android:name="android.hardware.sensor.accelerometer"
+54-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:10:9-61
+55        android:required="false" />
+55-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:11:9-33
+56    <uses-feature android:name="android.hardware.location" />
+56-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:12:5-62
+56-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:12:19-59
+57    <uses-feature
+57-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:13:5-15:36
+58        android:name="android.hardware.location.gps"
+58-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:14:9-53
+59        android:required="false" />
+59-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:15:9-33
+60    <uses-feature
+60-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:16:5-18:36
+61        android:name="android.hardware.telephony"
+61-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:17:9-50
+62        android:required="false" />
+62-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:18:9-33
+63    <uses-feature android:name="android.hardware.wifi" /> <!-- SDK requirement permission end -->
+63-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:19:5-58
+63-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:19:19-55
+64    <application
+64-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:35:5-78:19
+65        android:name="com.dji.FPVDemo.MApplication"
+65-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:36:9-37
+66        android:allowBackup="true"
+66-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:37:9-35
+67        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+67-->[androidx.core:core:1.3.2] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\c20b17f608b3c233f341cc336a21a987\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+68        android:debuggable="true"
+69        android:extractNativeLibs="true"
+69-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:41:9-41
+70        android:icon="@mipmap/ic_launcher"
+70-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:38:9-43
+71        android:label="@string/app_name"
+71-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:39:9-41
+72        android:supportsRtl="true"
+72-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:40:9-35
+73        android:testOnly="true"
+74        android:theme="@style/AppTheme" >
+74-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:42:9-40
+75        <uses-library
+75-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:44:9-88
+76            android:name="org.apache.http.legacy"
+76-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:44:23-60
+77            android:required="false" />
+77-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:44:61-85
+78
+79        <!-- DJI SDK -->
+80        <uses-library android:name="com.android.future.usb.accessory" />
+80-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:47:9-73
+80-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:47:23-70
+81
+82        <meta-data
+82-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:48:9-50:56
+83            android:name="com.dji.sdk.API_KEY"
+83-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:49:13-47
+84            android:value="41be355e570a2968f1f24bee" />
+84-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:50:13-53
+85
+86        <service
+86-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:52:9-54:19
+87            android:name="dji.sdk.sdkmanager.DJIGlobalService"
+87-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:52:18-68
+88            android:stopWithTask="true" >
+88-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:61:13-40
+89        </service>
+90        <!-- DJI SDK -->
+91
+92        <activity
+92-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:57:9-74:20
+93            android:name="com.dji.FPVDemo.ConnectionActivity"
+93-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:57:19-53
+94            android:configChanges="orientation"
+94-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:58:13-48
+95            android:screenOrientation="portrait" >
+95-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:59:13-49
+96            <intent-filter>
+96-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:61:13-64:29
+97                <action android:name="android.intent.action.MAIN" />
+97-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:62:17-69
+97-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:62:25-66
+98
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:63:17-77
+99-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:63:27-74
+100            </intent-filter>
+101            <intent-filter>
+101-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:66:13-68:29
+102                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+102-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:67:17-93
+102-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:67:25-90
+103            </intent-filter>
+104
+105            <meta-data
+105-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:70:13-72:60
+106                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+106-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:71:17-82
+107                android:resource="@xml/accessory_filter" />
+107-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:72:17-57
+108        </activity>
+109        <activity
+109-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:75:9-77:53
+110            android:name="com.dji.FPVDemo.MainActivity"
+110-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:76:13-41
+111            android:screenOrientation="landscape" />
+111-->F:\android develop\android studio\my-project-location\DJI_mobile_client\FPVDemo\app\src\main\AndroidManifest.xml:77:13-50
+112
+113        <receiver
+113-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:63:9-70:20
+114            android:name="dji.logic.receiver.DJIPilotStartupReceiver"
+114-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:64:13-70
+115            android:exported="true" >
+115-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:65:13-36
+116            <intent-filter>
+116-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:66:13-69:29
+117                <action android:name="dji.go3.STARTUP" />
+117-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:67:17-58
+117-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:67:25-55
+118                <action android:name="dji.go4.STARTUP" />
+118-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:68:17-58
+118-->[com.dji:dji-sdk:4.15] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\fd6d234565b583063be0191696bf88a9\transformed\jetified-dji-sdk-4.15\AndroidManifest.xml:68:25-55
+119            </intent-filter>
+120        </receiver>
+121
+122        <service
+122-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:22:9-24:39
+123            android:name="com.mapzen.android.lost.internal.FusedLocationProviderService"
+123-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:23:13-89
+124            android:process=":lost" />
+124-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:24:13-36
+125        <service android:name="com.mapzen.android.lost.internal.GeofencingIntentService" >
+125-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:25:9-29:19
+125-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:25:18-89
+126            <intent-filter>
+126-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:26:13-28:29
+127                <action android:name="com.mapzen.lost.action.ACTION_GEOFENCING_SERVICE" />
+127-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:27:17-91
+127-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:27:25-88
+128            </intent-filter>
+129        </service>
+130        <service android:name="com.mapzen.android.lost.internal.DwellIntentService" >
+130-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:30:9-31:19
+130-->[com.mapzen.android:lost:3.0.4] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\42e9bc088754315f18a239ced24d80d2\transformed\jetified-lost-3.0.4\AndroidManifest.xml:30:18-84
+131        </service>
+132
+133        <provider
+133-->[androidx.lifecycle:lifecycle-process:2.2.0] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\68f7ee0ac41b601a2965f367f0915d38\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+134            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+134-->[androidx.lifecycle:lifecycle-process:2.2.0] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\68f7ee0ac41b601a2965f367f0915d38\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+135            android:authorities="com.dji.FPVDemo.lifecycle-process"
+135-->[androidx.lifecycle:lifecycle-process:2.2.0] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\68f7ee0ac41b601a2965f367f0915d38\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+136            android:exported="false"
+136-->[androidx.lifecycle:lifecycle-process:2.2.0] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\68f7ee0ac41b601a2965f367f0915d38\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+137            android:multiprocess="true" />
+137-->[androidx.lifecycle:lifecycle-process:2.2.0] F:\android develop\android_install_packages\.Gradle\caches\transforms-3\68f7ee0ac41b601a2965f367f0915d38\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+138    </application>
+139
+140</manifest>

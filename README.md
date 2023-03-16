@@ -11,6 +11,6 @@
    <meta-data android:name="com.dji.sdk.API_KEY" android:value="xxxxx"/>
    ```
 
-   ；
-
 4. 编译并且安装在版本为7以上的安卓手机上。
+
+此APP在DJI [FPVDemo](https://github.com/DJI-Mobile-SDK-Tutorials/Android-FPVDemo)的基础上融合实时图传、云台控制、飞行控制。

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\android develop\\android studio\\my-project-location\\DJI_mobile_client\\FPVDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "F:\\android develop\\android_install_packages\\.Gradle\\caches\\transforms-3\\383efc9619640fbe7443d0fdd4a03460\\transformed\\appcompat-1.2.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

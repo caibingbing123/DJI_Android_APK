@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:keepScreenOn="true">
+
+    <TextureView
+        android:id="@+id/video_previewer_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+
+    <com.garrett.ui.RectView
+        android:id="@+id/rect_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center" />
+
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_alignParentBottom="true"
+      android:id="@+id/linearLayout">
+
+         <ImageView
+             android:id="@+id/imageViewControlConnect"
+             android:layout_width="50dip"
+             android:layout_height="50dip"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+             android:src="@drawable/pc_unconnected" />
+
+         <ImageView
+             android:id="@+id/imageViewAircraft"
+             android:layout_width="50dip"
+             android:layout_height="50dip"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="19dp"
+             android:layout_toRightOf="@+id/imageViewControlConnect"
+             android:src="@drawable/aircraft_unconnected" />
+         <ImageView
+             android:id="@+id/imageViewPC"
+             android:layout_width="50dip"
+             android:layout_height="50dip"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="14dp"
+             android:layout_toRightOf="@+id/imageViewAircraft"
+             android:src="@drawable/pc_unconnected" />
+
+    <ToggleButton
+             android:id="@+id/btn_virtual_stick"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_gravity="center_vertical"
+             android:layout_height="wrap_content"
+             android:text="开启控制"
+             android:textOff="开启控制"
+             android:textOn="关闭控制"
+             android:textSize="12sp"/>
+
+    <ToggleButton
+        android:id="@+id/btn_one_key_fly"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:text="起飞"
+        android:textOff="起飞"
+        android:textOn="降落"
+        android:textSize="12sp"/>
+
+     
+    <Button
+        android:id="@+id/btn_sprin_right"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="右旋转"
+        android:textSize="12sp"/>
+
+    <ToggleButton
+             android:id="@+id/btn_transmit_image"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_weight="1"
+             android:checked="false"
+             android:text="开始图传"
+             android:textOff="开始图传"
+             android:textOn="停止图传"
+             android:textSize="12dp" />
+
+     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/video_previewer_surface"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="23dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

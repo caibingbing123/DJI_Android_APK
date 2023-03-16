@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.dji:utmiss:1.0.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ce27d67de2677afe8d589a2e9f81c47d/transformed/jetified-utmiss-1.0.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ce27d67de2677afe8d589a2e9f81c47d/transformed/jetified-utmiss-1.0.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ce27d67de2677afe8d589a2e9f81c47d/transformed/jetified-utmiss-1.0.8/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../android_install_packages/.Gradle/caches/transforms-3/46658d9ede4cfaba4a96d086e245f511/transformed/jetified-utmiss-1.0.8/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../android_install_packages/.Gradle/caches/transforms-3/46658d9ede4cfaba4a96d086e245f511/transformed/jetified-utmiss-1.0.8/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../android_install_packages/.Gradle/caches/transforms-3/46658d9ede4cfaba4a96d086e245f511/transformed/jetified-utmiss-1.0.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
